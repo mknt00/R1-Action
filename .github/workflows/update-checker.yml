@@ -37,9 +37,11 @@ jobs:
         df -hT
         cd runners
         ls -al
-        cd /home
+        cd /home/runner
         ls -al
-        
+        rm -rf *
+        ls -al
+        df -h
 
     - name: Compare Commit Hash
       id: cacheHash
