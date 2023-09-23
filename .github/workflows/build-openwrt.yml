@@ -78,7 +78,9 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
+      run: |
+        cd openwrt && ./scripts/feeds install -a
+         . $GITHUB_WORKSPACE/merge_files.sh
 
     - name: Load custom configuration
       run: |
