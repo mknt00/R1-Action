@@ -39,8 +39,6 @@ jobs:
         ls -al
         cd /home/runner
         ls -al
-        rm -rf *
-        ls -al
         df -h
 
     - name: Compare Commit Hash
