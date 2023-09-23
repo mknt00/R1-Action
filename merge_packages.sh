@@ -30,7 +30,7 @@ function merge_feed(){
     ./scripts/feeds install -a -p $1
 }
 
-rm -rf feeds/packages/net/mosdns package/feeds/packages/mosdns
+#rm -rf feeds/packages/net/mosdns package/feeds/packages/mosdns
 rm -rf package/custom; mkdir package/custom
 merge_feed nas "https://github.com/linkease/nas-packages;master"
 merge_feed nas_luci "https://github.com/linkease/nas-packages-luci;main"
@@ -55,4 +55,4 @@ drop_package luci-app-cd8021x
 drop_package luci-app-cifs
 drop_package verysync
 drop_package luci-app-verysync
-drop_package luci-app-mosdns
+#drop_package luci-app-mosdns
