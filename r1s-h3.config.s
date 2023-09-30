@@ -141,7 +141,7 @@ CONFIG_PACKAGE_kmod-mt76x2u=y
 #CONFIG_PACKAGE_kmod-r8125=y
 CONFIG_PACKAGE_kmod-rtw88=y
 CONFIG_PACKAGE_kmod-rtl8821cu=y
-CONFIG_PACKAGE_kmod-rtl8168=y
+CONFIG_PACKAGE_kmod-r8168=y
 #以上驱动
 CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
 CONFIG_PACKAGE_kmod-ipt-extra=y
